@@ -14,6 +14,12 @@ public class HomePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(linkText = "Dashboard")
+	private WebElement DashboarLink;
+
+	public WebElement getProductLink() {
+		return DashboarLink;
+	}
 
 	@FindBy(linkText = "Products")
 	private WebElement productLink;
