@@ -14,11 +14,11 @@ public class HomePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(linkText = "Email")
-	private WebElement EmailLink;
+	@FindBy(linkText = "Dashboard")
+	private WebElement DashboardLink;
 
 	public WebElement getProductLink() {
-		return EmailLink;
+		return DashboardLink;
 	}
 
 	@FindBy(linkText = "Organizations")
