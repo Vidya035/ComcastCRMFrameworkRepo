@@ -15,10 +15,10 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 	@FindBy(linkText = "Dashboard")
-	private WebElement DashboardLink;
+	private WebElement DashboarLink;
 
 	public WebElement getProductLink() {
-		return DashboardLink;
+		return DashboarLink;
 	}
 
 	@FindBy(linkText = "Organizations")
