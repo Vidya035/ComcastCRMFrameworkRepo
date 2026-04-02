@@ -23,4 +23,12 @@ public class DashBoardPage {
 	public WebElement getDashboarLink() {
 		return DashboarLink;
 	}
+	
+	
+	@FindBy(linkText = "Search")
+	private WebElement SearchLink;
+	
+	public WebElement getSearchLink() {
+		return SearchLink;
+	}
 }
