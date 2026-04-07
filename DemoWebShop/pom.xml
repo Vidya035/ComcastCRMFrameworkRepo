@@ -69,20 +69,5 @@
     <scope>compile</scope>
 </dependency>
 
-  	<dependency>
-  		<groupId>OPENPROJECT</groupId>
-  		<artifactId>OPENPROJECT</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>ComcastCRMGUIFramework</groupId>
-  		<artifactId>ComcastCRMGUIFramework</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>API_Framework</groupId>
-  		<artifactId>ReqRecProject</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>  
 </project>
